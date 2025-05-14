@@ -97,7 +97,7 @@ def save_to_csv(results, output_file="结果.csv"):
 # 6. 主程序
 if __name__ == "__main__":
     address_file = "T_Location_202206181755.json"
-    team_file = "card.txt"
+    team_file = "团队名单.txt"
 
     address_map = load_address_codes(address_file)
     results = process_team_file(team_file, address_map)
